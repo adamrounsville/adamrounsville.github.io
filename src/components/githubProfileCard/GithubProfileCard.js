@@ -18,10 +18,14 @@ export default function GithubProfileCard({prof}) {
             <div className="blog-header">
               <p className="subTitle blog-subtitle">
                 {"Want to reach out? Connect with me on "}
-                <a href="https://www.linkedin.com/in/adam-rounsville/">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/adam-rounsville/">
+                  LinkedIn
+                </a>
                 {" or send me an "}
                 <a href="mailto:adamjrounsville@gmail.com">email</a>
-                {". I'll try my very best to get back to you within 24 hours. I look forward to chatting!"}
+                {
+                  ". I'll try my very best to get back to you within 24 hours. I look forward to chatting!"
+                }
               </p>
             </div>
             {prof.location !== null && (

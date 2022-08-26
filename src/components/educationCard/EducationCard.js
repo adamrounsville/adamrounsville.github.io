@@ -44,6 +44,8 @@ export default function EducationCard({school}) {
                 }
               >
                 {school.subHeader}
+                <br></br>
+                {"Minors in Mathematics and Entrepreneurship"}
               </h5>
               <p
                 className={`${
