@@ -27,24 +27,15 @@ export default function Contact() {
                 isDark ? "dark-mode contact-text-div" : "contact-text-div"
               }
             >
-              {contactInfo.number && (
-                <>
-                  <a
-                    className="contact-detail"
-                    href={"tel:" + contactInfo.number}
-                  >
-                    {contactInfo.number}
-                  </a>
-                  <br />
-                  <br />
-                </>
-              )}
-              <a
-                className="contact-detail-email"
-                href={"mailto:" + contactInfo.email_address}
-              >
-                {contactInfo.email_address}
+              {"Want to reach out? Connect with me on "}
+              <a href="https://www.linkedin.com/in/adam-rounsville/">
+                LinkedIn
               </a>
+              {" or send me an "}
+              <a href="mailto:adamjrounsville@gmail.com">email</a>
+              {
+                ". I'll try my very best to get back to you within 24 hours. I look forward to chatting!"
+              }
               <br />
               <br />
               <SocialMedia />
