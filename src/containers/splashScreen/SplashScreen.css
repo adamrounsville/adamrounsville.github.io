@@ -26,6 +26,6 @@
 /* Media Query */
 @media (max-width: 425px) {
   .splash-title-container {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 }
