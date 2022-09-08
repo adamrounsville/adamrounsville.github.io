@@ -11,7 +11,7 @@
 }
 
 .splash-title-container {
-  font-size: 1rem;
+  font-size: 1.8rem;
   text-decoration: none;
 }
 
@@ -21,11 +21,4 @@
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 20px;
-}
-
-/* Media Query */
-@media (max-width: 425px) {
-  .splash-title-container {
-    font-size: 1.8rem;
-  }
 }
