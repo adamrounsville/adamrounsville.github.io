@@ -21,7 +21,7 @@ const greeting = {
     "I'm a passionate, full stack software engineer with experience using languages and frameworks such as Python, JavaScript, Java, C++, Flutter, and React to create innovative and robust software solutions"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/17MMXgtyzpgUYyduXkh4XxisG7Hh7RWRv/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1I0ldQN14btMh4O9PkX56yBMgiT8IM2do/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
