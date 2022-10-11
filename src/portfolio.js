@@ -21,7 +21,7 @@ const greeting = {
     "I'm a passionate, full stack software engineer with experience using languages and frameworks such as Python, JavaScript, Java, C++, Flutter, and React to create innovative and robust software solutions"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1I0ldQN14btMh4O9PkX56yBMgiT8IM2do/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1I45wwaxSX_63zwe8bSvA_r39mWuWv64A/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -79,6 +79,12 @@ const skillsSection = {
       size: "50"
     },
     {
+      skillName: "Solidity",
+      fontAwesomeClassname:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg",
+      size: "50"
+    },
+    {
       skillName: "HTML5",
       fontAwesomeClassname:
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
@@ -124,12 +130,6 @@ const skillsSection = {
       skillName: "Node.js",
       fontAwesomeClassname:
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-      size: "50"
-    },
-    {
-      skillName: "Bash",
-      fontAwesomeClassname:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg",
       size: "50"
     },
     {
@@ -182,6 +182,17 @@ const educationInfo = {
 const workExperiences = {
   display: true, // Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Web3 Software Engineer",
+      company: "Alta",
+      companylogo: require("./assets/images/altaLogo.jpeg"),
+      date: "Sep 2022 – Present",
+      descBullets: [
+        "Engineered, wrote unit tests for, and deployed over 10 upgradable smart contracts written in Solidity to the Ethereum blockchain",
+	      "Developed 2 full stack, mobile-responsive and cross-browser compatible applications using React, React Native, and TypeScript",
+        "Saved 2 hours per protocol upgrade by refactoring PostgreSQL database schemas and GraphQL APIs for 5+ Web3 integrations"
+      ]
+    },
     {
       role: "Software Engineer Intern",
       company: "Podium",
