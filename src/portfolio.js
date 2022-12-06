@@ -21,7 +21,7 @@ const greeting = {
     "I'm a passionate, full stack software engineer with experience using languages and frameworks such as Python, JavaScript, Java, C++, Flutter, and React to create innovative and robust software solutions"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1I45wwaxSX_63zwe8bSvA_r39mWuWv64A/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1E1F6PW6ZzAhgxMMDcXOy6WB0KP3jf6AA/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -40,7 +40,7 @@ const skillsSection = {
   title: "Skills",
   subTitle: "",
   skills: [
-    emoji("⚡ Develop full stack software for web and mobile applications"),
+    emoji("⚡ Develop full stack software for any and all applications"),
     emoji("⚡ Leverage REST APIs and microservices to build scalable solutions"),
     emoji("⚡ Build and conduct tests to ensure software quality and stability")
   ],
@@ -169,10 +169,10 @@ const educationInfo = {
       logo: require("./assets/images/byuLogo.png"),
       subHeader:
         "Bachelor of Science in Computer Science: Software Engineering Emphasis",
-      duration: "August 2021 – April 2025",
+      duration: "August 2021 – December 2024",
       desc: "GPA: 4.00 / 4.00",
       descBullets: [
-        "Relevant Coursework: Data Structures, Algorithms, Object-Oriented Programming, Discrete Structures, Computer Systems, Web Development, Multivariable Calculus, Statistics, Linear Algebra, Software Engineering Practicum"
+        "Relevant Coursework: Data Structures, Algorithms, Object-Oriented Programming, Discrete Structures, Computer Systems, Web Development, Statistics, Linear Algebra, Software Engineering Practicum"
       ]
     }
   ]
@@ -182,6 +182,25 @@ const educationInfo = {
 const workExperiences = {
   display: true, // Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Incoming Software Engineer Intern",
+      company: "BILL",
+      companylogo: require("./assets/images/billLogo.jpeg"),
+      date: "Jun 2023 – Aug 2023",
+      descBullets: [
+        "Through its automated solutions, BILL helps small and midsize businesses simplify and control their finances, so they can confidently manage their businesses, and succeed on their terms",
+      ]
+    },
+    {
+      role: "Software Engineer",
+      company: "Sandbox",
+      companylogo: require("./assets/images/sandboxLogo.jpeg"),
+      date: "Nov 2022 – Present",
+      descBullets: [
+        "Sandbox is a university-backed, year-long incubator for tech startups",
+        "Sandbox students spend two semesters working in a small team to build and launch a tech product from scratch—the best experience those interested in entrepreneurship or tech can get in school",
+      ]
+    },
     {
       role: "Web3 Software Engineer",
       company: "Alta",
