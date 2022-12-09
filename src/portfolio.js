@@ -182,15 +182,15 @@ const educationInfo = {
 const workExperiences = {
   display: true, // Set it to true to show workExperiences Section
   experience: [
-    {
-      role: "Incoming Software Engineer Intern",
-      company: "BILL",
-      companylogo: require("./assets/images/billLogo.jpeg"),
-      date: "Jun 2023 – Aug 2023",
-      descBullets: [
-        "Through its automated solutions, BILL helps small and midsize businesses simplify and control their finances, so they can confidently manage their businesses, and succeed on their terms",
-      ]
-    },
+    // {
+    //   role: "Incoming Software Engineer Intern",
+    //   company: "BILL",
+    //   companylogo: require("./assets/images/billLogo.jpeg"),
+    //   date: "Jun 2023 – Aug 2023",
+    //   descBullets: [
+    //     "Through its automated solutions, BILL helps small and midsize businesses simplify and control their finances, so they can confidently manage their businesses, and succeed on their terms",
+    //   ]
+    // },
     {
       role: "Software Engineer",
       company: "Sandbox",
@@ -205,7 +205,7 @@ const workExperiences = {
       role: "Web3 Software Engineer",
       company: "Alta",
       companylogo: require("./assets/images/altaLogo.jpeg"),
-      date: "Sep 2022 – Present",
+      date: "Sep 2022 – Dec 2022",
       descBullets: [
         "Engineered, wrote unit tests for, and deployed over 10 upgradable smart contracts written in Solidity to the Ethereum blockchain",
 	      "Developed 2 full stack, mobile-responsive and cross-browser compatible applications using React, React Native, and TypeScript",
